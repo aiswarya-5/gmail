@@ -151,10 +151,7 @@ right{
 	
 }
 .sidebox1 ul{
- 	 margin: 0;
- 	 padding: 0;
- 	 margin-left: 10px;
- 	 margin-top: 0px;
+ 	 margin-left: 11px;
 	 list-style-type: none;
 }
 .sidebox1 .redish{
@@ -163,13 +160,11 @@ right{
 	border-radius: 0 50px 50px 0;	
 }
 .sidebox1 li:hover, .sidebox2 li:hover{
-	
 	background-color: whitesmoke;
-	border-radius: 0 50px 50px 0;
-	
+	border-radius: 0 50px 50px 0;	
 }
 .sidebox1 li{
-	padding-bottom:7px;
+	padding-bottom:8px;
 }
 ul .material-icons{
 	color: #5f6368; 
@@ -185,7 +180,9 @@ ul .material-icons{
 	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 	bottom:5px;
 }
-
+.sidebox1 .more{
+	padding-bottom:19px;
+}
 .sidebox2 a{
 	
     	line-height:16px;
@@ -201,7 +198,7 @@ ul .material-icons{
 	display: flex;
 	align-item: center;	 
  	width: 235px;	
-	padding-top: 10px;
+	padding-top: 6px;
 	display:inline;
  	box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 1px;	
 	position: relative;
@@ -220,7 +217,6 @@ ul .material-icons{
 }
 .sidebox2 p{
 	padding-bottom:11px;
-	padding-top:5px;
 	margin-left:10px;
 	font-size: 16px;
 }
@@ -252,7 +248,7 @@ ul .material-icons{
 .sidebox3 .material-icons{
 	color: #5f6368; 
 	font-size: 21px;
-	margin-bottom: 16px;
+	margin-bottom: 9px;
 }
 .sidebox3 #add{
 	padding-left:78px;
@@ -264,6 +260,7 @@ ul .material-icons{
 	padding-left: 30px;
 	width: 178px;
 	padding-bottom: 36px;
+	padding-right:18px;
 	padding-top: 6px;
 	box-shadow: rgb(149 157 165 / 20%) 0px 2px 1px;
 }
@@ -280,7 +277,7 @@ ul .material-icons{
 .sidebox5{
 	border: none;
 	cursor: pointer;
-	padding-left:92px; 
+	padding-left:86px; 
 	float: none;
 	display: inline-block;
 	opacity:1;
@@ -288,7 +285,8 @@ ul .material-icons{
 
 .sidebox5 img{
 	opacity:.8;
-	width:19px;
+	width: 20px;
+        padding: 2;
 }
 .small-sidebar{	   
         min-width: 56px;
@@ -392,7 +390,6 @@ ul .material-icons{
 .layer2 .type,.layer2 .type,.layer2 .type{
 	font-size:15px;	
 	padding-left:5px;
-	padding-top: 2px;
 }
 .layer2 .primary{
 	color: #d93025;	
