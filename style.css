@@ -1,8 +1,7 @@
 *{
 	font-family: arial, sans-serif;
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }
 .header{
 	display: flex;
@@ -127,7 +126,7 @@ right{
 	display: block;
 }
 .compose-button{
- 	height: 48px;
+ 	
 	margin: 16px 0 16px;
 	font-size: .875rem;
   	letter-spacing: .5px;
@@ -277,14 +276,16 @@ ul .material-icons{
 }
 .sidebox3 .name{
 	font-size: 13px;
-
+	padding-top:10px;
 }
 .sidebox3 .material-icons{
 	color: #5f6368; 
 	font-size: 21px;
 	margin-bottom: 16px;
 }
-
+.sidebox3 #add{
+	padding-left:78px;
+}
 .sidebox4{
 	overflow-y:scroll;
 	font-size:13px;
@@ -462,12 +463,18 @@ ul .material-icons{
 	padding-left:7px;
 }
 .layer3 .two{
-	padding-left:0px;
+	padding-left:9px;
 }
 .layer3 .three{
-	padding-left:0px;
+	padding-left:13px;
 	font-size:14px;
 }
+.layer3 .three .msg2{
+	padding-left:88px;
+}
+.layer3 .three .msg3{
+	padding-left:37px;
+}	
 .layer3:hover{	
 	cursor: pointer;
 	border: 1px solid #e6e6e6;
