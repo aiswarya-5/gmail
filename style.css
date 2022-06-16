@@ -43,6 +43,9 @@
         font-size: 16px;      	
 	height: 47px;
 }
+.middle input:focus{
+	 outline:none;
+}
 .middle .search{
 	width: 25px;
 	opacity: .5;
